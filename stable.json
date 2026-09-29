@@ -1,0 +1,13 @@
+{
+  "schema": "strela-release-index-v1",
+  "channel": "stable",
+  "sequence": 1,
+  "generated_at": "2026-09-29T12:00:33.496894Z",
+  "expires_at": "2026-12-28T12:00:33.496894Z",
+  "releases": [
+    {
+      "version": "0.1.0",
+      "manifest": "https://github.com/surkovjs/strela-releases/releases/download/v0.1.0/release-manifest.json"
+    }
+  ]
+}
