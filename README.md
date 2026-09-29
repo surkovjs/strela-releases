@@ -24,3 +24,12 @@ shasum -a 256 strela-server-*.tar.gz strela-web-*.tar.gz
 ```
 
 The printed digests must equal the `sha256` values in the verified manifest.
+
+## Retention
+
+Published releases are never deleted or replaced: installations need the
+archives, manifests and signatures of earlier versions for a verified rollback
+and for restoring a backup onto the version it was taken with. A broken release
+is superseded by a newer one and dropped from the channel index, not removed.
+The channel index is re-signed before `expires_at`; an expired index blocks
+updates on installations but does not affect a running server.
