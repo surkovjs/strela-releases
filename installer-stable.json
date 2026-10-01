@@ -1,0 +1,13 @@
+{
+  "schema": "strela-release-index-v1",
+  "channel": "installer-stable",
+  "sequence": 1,
+  "generated_at": "2026-09-30T17:32:47.870462Z",
+  "expires_at": "2026-12-29T17:32:47.870462Z",
+  "releases": [
+    {
+      "version": "0.1.0",
+      "manifest": "https://github.com/surkovjs/strela-releases/releases/download/installer-v0.1.0/installer-manifest.json"
+    }
+  ]
+}
