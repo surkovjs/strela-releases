@@ -1,9 +1,9 @@
 {
   "schema": "strela-release-index-v1",
   "channel": "stable",
-  "sequence": 2,
-  "generated_at": "2026-09-30T11:43:02.082196Z",
-  "expires_at": "2026-12-29T11:43:02.082196Z",
+  "sequence": 3,
+  "generated_at": "2026-10-01T12:00:12.723839Z",
+  "expires_at": "2026-12-30T12:00:12.723839Z",
   "releases": [
     {
       "version": "0.1.0",
@@ -12,6 +12,10 @@
     {
       "version": "0.1.1",
       "manifest": "https://github.com/surkovjs/strela-releases/releases/download/v0.1.1/release-manifest.json"
+    },
+    {
+      "version": "0.1.2",
+      "manifest": "https://github.com/surkovjs/strela-releases/releases/download/v0.1.2/release-manifest.json"
     }
   ]
 }
